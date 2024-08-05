@@ -79,3 +79,79 @@ h3{
   .btn:hover {
     background-color: #3e8e41;
   }
+
+  .konten{
+    width: 80%;
+    margin: auto;
+}
+.konten h1{
+    color: rgb(87, 5, 5);
+    font-size: 35px;
+}
+.konten h2{
+    color: darkslateblue;
+    font-size: 25px;
+}
+.tabel{
+    border-spacing: 4px;
+}
+td>img{
+    width: 200px;
+}
+.tabel-header{
+    background-color: bisque;
+}
+.tabel-header th{
+    padding: 10px;
+    text-align: left;
+}
+.tabel-konten{
+    background-color: beige;
+}
+.tabel-genap{
+    background-color: azure;
+}
+.tabel-konten td{
+    padding: 10px;
+}
+.tabel-konten:hover{
+    background-color: brown;
+}
+.form-group{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form-group label{
+    display: block;
+}
+.form-group input{
+    display: block;
+    margin-top: 10px;
+    width: 50%;
+    background-color: bisque;
+}
+.form-group textarea{
+    display: block;
+    margin-top: 10px;
+    height: 300px;
+    width: 50%;
+    background-color: bisque;
+}
+.boton{
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    color: brown;
+    background-color: rgb(241, 214, 187);
+    border: 0px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.boton:hover{
+    background-color: aqua;
+}
+.boton:active{
+    background-color: blue;
+}
+

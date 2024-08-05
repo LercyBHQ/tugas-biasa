@@ -18,26 +18,36 @@
       </div>
       <ul class="nav">
         <li class="nav-item"><a href="index.html">Peminjaman Buku</a></li>
+        <li class="nav-item"><a href="index1.html">Daftar Buku</a></li>
+        <li class="nav-item"><a href="index2.html">Contact</a></li>
     </ul>
     <div class="container">
     <form id="amb">
       <h3 align="center">Isi Data Di Bawah Ini</h3>
-        <div class="form-group">
+        <div class="form-group1">
              <label for="nama">Nama Lengkap: </label>
              <input type="text" for="nama" name="nama" id="nama"  required>
         </div>
         <div class="form-group">
-            <label for="buku">Buku Yang Di Pinjam: </label>
-            <input type="text" for="buku" id="buku" required>
+            <label for="buku">Buku Yang dipinjam: </label>
+        <select id="buku" name="buku" required>
+          <option value="">Pilih buku</option>
+          <option value="a">Habis Gelap Terbitlah Terang</option>
+          <option value="b">Blue Lock</option>
+          <option value="c">Laskar Pelangi</option>
+          <option value="d">Dilan:Dilan:Dia adalah Dilanku tahun 1990</option>
+          <option value="e">Juujika No Rokunin</option>
+        </select>
        </div>
        <div class="form-group">
         <label for="Pekerjaan">Pekerjaan:</label>
         <select id="Pekerjaan" name="Pekerjaan" required>
-          <option value="L">Mahasiswa</option>
-          <option value="P">Pelajar</option>
-          <option value="P">Karyawan</option>
+          <option value="">Pilih</option>
+          <option value="j">Mahasiswa</option>
+          <option value="o">Pelajar</option>
+          <option value="l">Karyawan</option>
           <option value="P">PNS</option>
-          <option value="P">DLL</option>
+          <option value="d">DLL</option>
         </select>
       </div>
       <div class="form-group">
@@ -49,7 +59,7 @@
         </select>
         <span id="jenis_kelamin-error" class="error"></span>
       </div>
-      <button type="submit" class="btn btn-primary" onclick="validasi()">Kirim</button>
+      <button type="submit" class="btn btn-primary" onclick="validasi1()">Kirim</button>
        <div class="footer">
         <p>&copy; Copyright 2024</p>
     </div>
