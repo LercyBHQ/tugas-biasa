@@ -1,35 +1,31 @@
-function validasi1()
+function validasi1() 
 {
-    var cek = document.forms["amb"]["nama"].value;
-    if (!/^[a-zA-Z]+$/.test(cek))
-    {
-        alert("Silakan isi form terlebih dahulu dengan huruf");
-        document.getElementById("nama").focus();
-        document.amb.nama.value="";
-        return false;
-    }
-    var cek = document.forms["amb"]["buku"].value;
-    if (!/^[a-zA-Z]+$/.test(cek))
-    {
-        alert("Dimohon pilih buku yang tercantum");
-        document.getElementById("buku").focus();
-        document.amb.nama.value="";
-        return false;
-    }
-    var cek = document.forms["amb"]["Pekerjaan"].value;
-    if (!/^[a-zA-Z]+$/.test(cek))
-    {
-        alert("Pilih pekerjaanmu");
-        document.getElementById("Pekerjaan").focus();
-        document.amb.nama.value="";
-        return false;
-    }
-    var cek = document.forms["amb"]["jenis_kelamin"].value;
-    if (!/^[a-zA-Z]+$/.test(cek))
-    {
-        alert("Silakan pilih jenis kelamin");
-        document.getElementById("jenis kelamin").focus();
-        document.amb.nama.value="";
-        return false;
+
+    var konfirmasi = confirm('Apakah akan dilanjutkan untuk mengirim pesan?');
+
+    if (konfirmasi == true) {
+        var nama = document.forms["amb"]["nama"].value;
+        var buku = document.forms["amb"]["buku"].value;
+        var Pekerjaan = document.forms["amb"]["Pekerjaan"].value;
+        var jenis_kelamin = document.forms["amb"]["jenis_kelamin"].value;
+        console.log(nama);
+        console.log(buku);
+        console.log(Pekerjaan);
+        console.log(jenis_kelamin);
+
+        if (nama == '') {
+            alert('Isi nama anda...!!');
+        }
+        if (buku == '') {
+            alert('Pilih Buku yang tercantum di daftar buku...!!');
+        }
+        if (Pekerjaan == '') {
+            alert('Pilih Pekerjaan...!!');
+        }
+        if (jenis_kelamin == '') {
+            alert('Isi jenis kelamin...!!');
+        }
+    } else {
+        alert('kirim pesan dibatalkan...!!');
     }
 }
