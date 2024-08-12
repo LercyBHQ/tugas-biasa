@@ -1,3 +1,14 @@
+function validasi2()
+{
+    var cek = document.forms["amb"]["nama"].value;
+    if (!/^[a-zA-Z]+$/.test(cek))
+    {
+        alert("Data ini harus diisi dengan huruf...!!!");
+        document.getElementById("nama").focus();
+        document.amb.nama.value="";
+        return false;
+    }
+}
 function validasi1() 
 {
 

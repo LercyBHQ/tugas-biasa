@@ -133,28 +133,4 @@ td>img{
     width: 50%;
     background-color: bisque;
 }
-.form-group textarea{
-    display: block;
-    margin-top: 10px;
-    height: 300px;
-    width: 50%;
-    background-color: bisque;
-}
-.boton{
-    width: 80px;
-    height: 40px;
-    font-size: 15px;
-    font-weight: bold;
-    color: brown;
-    background-color: rgb(241, 214, 187);
-    border: 0px;
-    border-radius: 15px;
-    cursor: pointer;
-}
-.boton:hover{
-    background-color: aqua;
-}
-.boton:active{
-    background-color: blue;
-}
 
