@@ -17,52 +17,57 @@
         </div>
       </div>
       <ul class="nav">
-        <li class="nav-item"><a href="index.html">Peminjaman Buku</a></li>
-        <li class="nav-item"><a href="index1.html">Daftar Buku</a></li>
+        <li class="nav-item"><a href="beranda.html">Beranda</a></li>
+        <li class="nav-item"><a href="index.html">Daftar Buku</a></li>
+        <li class="nav-item"><a href="index1.html">Peminjaman Buku</a></li>
         <li class="nav-item"><a href="index2.html">Contact</a></li>
     </ul>
-    <div class="container">
-    <form id="amb">
-      <h3 align="center">Isi Data Di Bawah Ini</h3>
-        <div class="form-group1">
-             <label for="nama">Nama Lengkap: </label>
-             <input type="text" for="nama" name="nama" id="nama"  required>
-        </div>
-        <div class="form-group">
-            <label for="buku">Buku Yang dipinjam: </label>
-        <select id="buku" name="buku" required>
-          <option value="">Pilih buku</option>
-          <option value="a">Habis Gelap Terbitlah Terang</option>
-          <option value="b">Blue Lock</option>
-          <option value="c">Laskar Pelangi</option>
-          <option value="d">Dilan:Dilan:Dia adalah Dilanku tahun 1990</option>
-          <option value="e">Juujika No Rokunin</option>
-        </select>
-       </div>
-       <div class="form-group">
-        <label for="Pekerjaan">Pekerjaan:</label>
-        <select id="Pekerjaan" name="Pekerjaan" required>
-          <option value="">Pilih</option>
-          <option value="j">Mahasiswa</option>
-          <option value="o">Pelajar</option>
-          <option value="l">Karyawan</option>
-          <option value="P">PNS</option>
-          <option value="d">DLL</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <label for="jenis_kelamin">Jenis Kelamin:</label>
-        <select id="jenis_kelamin" name="jenis_kelamin" required>
-          <option value="">Pilih Jenis Kelamin</option>
-          <option value="L">Laki-laki</option>
-          <option value="P">Perempuan</option>
-        </select>
-      </div>
-      <button type="submit" class="btn btn-primary" onclick="validasi1()">Kirim</button>
-       <div class="footer">
-        <p>&copy; Copyright 2024</p>
-    </div>
-    </form>
-  </div>
+    <div class="konten">
+        <h1>Daftar Buku</h1>
+        <table class="tabel">
+          <tr class="tabel-header">
+              <th>No</th>
+              <th>Cover</th>
+              <th>Judul</th>
+              <th>Penulis</th>
+              <th>Terbit</th>
+          </tr>
+          <tr class="tabel-konten">
+              <td>1</td>
+              <td><img src="Kartini.jpg" alt="buku"></td>
+              <td>Habis Gelap Terbitlah Terang</td>
+              <td>Raden Adjeng Kartini</td>
+              <td>1911</td>
+          </tr>
+          <tr class="tabel-konten tabel-genap">
+              <td>2</td>
+              <td><img src="komik blue lock.jpg" alt="buku"></td>
+              <td>Blue lock (manga)</td>
+              <td>Muneyuki Kaneshiro</td>
+              <td>2018</td>
+          </tr>
+          <tr class="tabel-konten">
+              <td>3</td>
+              <td><img src="laskar-pelangi.jpg" alt="buku"></td>
+              <td>Laskar Pelangi</td>
+              <td>Andrea Hirata</td>
+              <td>2005</td>
+          </tr>
+          <tr class="tabel-konten tabel-genap">
+              <td>4</td>
+              <td><img src="dilan.jpg" alt="buku"></td>
+              <td>Dilan:Dia adalah Dilanku tahun 1990</td>
+              <td>Pidi Baiq</td>
+              <td>2014</td>
+          </tr>
+          <tr class="tabel-konten">
+              <td>5</td>
+              <td><img src="juujika.jpg" alt="buku"></td>
+              <td>Juujika No Rokunin (manga)</td>
+              <td>Shiryuu Nakatake</td>
+              <td>2020</td>
+          </tr>
+        </table>
+     </div>
 </body>
 </html>

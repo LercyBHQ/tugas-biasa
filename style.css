@@ -1,9 +1,12 @@
 *{
     font-family: tahoma;
 }
+body{
+    background-color: rgb(250, 213, 139);
+}
 .header{
     display: flex;
-    background-color: rgb(255, 185, 100);
+    background-color: rgb(255, 146, 100);
     padding: 10px;
 }
 .header-logo img{
@@ -109,7 +112,7 @@ td>img{
     background-color: beige;
 }
 .tabel-genap{
-    background-color: azure;
+    background-color: rgb(40, 188, 188);
 }
 .tabel-konten td{
     padding: 10px;
